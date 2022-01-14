@@ -12,5 +12,9 @@ def isThuanNghich(n):
     else:
         print("Số vừa nhập không phải là số thuận nghịch")
  
-name = int(input("Nhập số lượng các kí tự của tên (ex: Phạm Đình Thanh Bình = 4445): "));
-isThuanNghich(name)
+surName = str(input("Nhập họ (ex: phamdinh): "));
+subName=str(input("Nhập tên đệm (ex: thanh): "));
+name=str(input("Nhập tên (ex:binh): "));
+n=str(len(surName))+str(len(subName))+str(len(name));
+print(n)
+isThuanNghich(n)
